@@ -1,0 +1,197 @@
+.background{
+    position: absolute;
+    width: 100% !important;
+    z-index: -1;
+    border-bottom: 8px solid #222 !important;
+}
+.bg-linear{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    height: 710px;
+}
+.logo-brand{
+    position: absolute;
+    margin-top: 90px;
+    left: 90px;
+}
+.logo-img{
+    width: 170px;
+}
+.nav-login{
+    position: absolute;
+    right: 0px;
+    margin-top: 50px;
+    padding: 50px;
+}
+.login-btn{
+    background-color: red !important;
+    text-align: center;
+    width: 120px;
+}
+.lang-select{
+    border: 1px solid rgb(255, 255, 255);
+    height: 37px;
+    width: 90px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    border-radius: 3px;
+}
+.nav-text{
+    color: white;
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 900;
+}
+.start-btn{
+    background-color: red !important;
+    text-align: center;
+    width: 190px;
+    height: 70px;
+    margin-bottom: 4px;
+    border-radius: 0px !important;
+    font-size: 30px !important;
+    margin-right: 200px;
+    margin-top: 2px;
+}
+.main-watch{
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    top: 718px;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+    border-bottom: 8px solid #222;
+}
+.text-div{
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 300px;
+    text-align: left;
+}
+.videos{
+    margin-bottom: 500px;
+    z-index: -1;
+    position: absolute;
+    right: 495px;
+    bottom: -303px;
+}
+.foto-tv{
+    position: absolute;
+    right:426px;
+}
+.main-watch2{
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    top: 1218px;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+    border-bottom: 8px solid #222;
+}
+.foto-tv2{
+    position: absolute;
+    text-align: left;
+    left: 300px;
+}
+.text-div2{
+    position: absolute;
+    right: 400px;
+    margin-top: 50px;
+    text-align: right;
+}
+.on-foto{
+    position: absolute;
+    width: 322px;
+    height: 90px;
+    border: 3px solid #222;
+    z-index: 1;
+    text-align: left;
+    left: 380px;
+    top: 260px;
+    border-radius: 20px;
+    background-color: black;
+}
+.foto-on{
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    width: 18%;
+}
+.on-text{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.main-watch3{
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    top: 1718px;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+    border-bottom: 8px solid #222;
+}
+.videos2{
+    margin-bottom: 500px;
+    z-index: -1;
+    position: absolute;
+    right: 527px;
+    bottom: -310px;
+}
+.fotos-poz{
+    top: 50px;
+}
+.main-watch4{
+    height: 800px;
+    background-color: black;
+    position: absolute;
+    top: 2218px;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+    border-bottom: 8px solid #222;
+}
+.acord{
+    position: absolute;
+    top: 200px;
+    width: 50%;
+    left: 25%;
+}
+.text-div4{
+    position: absolute;
+    top: 50px;
+    left: 25%;
+}
+.accordion {
+    background-color: #303030;;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 6px solid black;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+.active, .accordion:hover {
+    background-color: #363535; 
+  }
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #303030;
+    color: white;
+    overflow: hidden;
+    border: 6px solid black;
+  }
